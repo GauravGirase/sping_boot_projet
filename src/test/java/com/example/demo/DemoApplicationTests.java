@@ -9,11 +9,5 @@ class DemoApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-	
-	@Test
-	void testWhichFails() {
-		if (1 != 1)
-			throw new RuntimeException();
-	}
 
 }

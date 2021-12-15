@@ -18,8 +18,5 @@ dependencies {
 }
 
 test {
-	reports {
-		junitXml.enabled = true
-	}
 	useJUnitPlatform()
 }
